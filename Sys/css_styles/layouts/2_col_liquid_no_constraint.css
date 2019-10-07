@@ -1,0 +1,125 @@
+/* TWO COLUMN LAYOUT */
+.clear{ clear:both;}
+.clear:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+body {
+	text-align:center; /* IE6 needs this to center the layout in the browser window */
+	}
+#main_wrapper {
+	margin-left:auto;  /* centers layout in browser */
+	margin-right:auto; /* centers layout in browser */
+	text-align:left; /* resets the centering hack for IE6 on the body tag */
+	width:1003px;
+}
+#header {
+	 
+	}
+#nav {
+	width:143px; /* this width + content width must total 100% */
+	float:left; /* floats on nav and content divs make them sit side by side */	
+	}
+#content {
+	float:left; /* floats on nav and content divs make them sit side by side */
+	width:800px; /* this width + nav width must total 100% */
+	
+	}
+#footer {
+	clear:both; /* makes the footer sit below whichever column is longest */
+	background:url(../../images/footer_bg2.jpg) bottom repeat-x ;/* TEMP - REMOVE OR RESTYLE  */
+	}
+#header_inner, #content_inner, #promo_inner {
+	overflow:hidden; /* clips oversize elements that would otherwise expand divs and break the layout */
+	}
+#header_inner { 
+	
+	}
+#header_title {
+	float:left;
+	text-algin:left;
+	width:50%;
+	height:50px;	
+	}
+
+#header_title h1{
+	padding:0.7em  0.4em; /* creates space between the box  and the content */
+
+	}
+#header_wellcome {
+	float:left;
+	width:90%;
+	height:24px;
+	z-index:20;
+	}
+#header_wellcome_text{
+	float:right;
+	height:24px;	
+	color:#999;
+}
+#header_wellcome_pic {
+	float:right;
+	width:28px;
+	height:24px;
+	}	
+#header_End { 
+	position:absolute;
+	width:500px;
+	padding-right:10px;
+bottom:0;
+right:0;
+text-align:right;
+	}	
+#header_logout {
+	text-align:right;
+	 
+	}
+	
+#header_pic {
+	text-align:right;
+	margin-right:45px;
+	}
+#header_pic {
+	text-align:right;
+	margin-right:45px;
+	}
+	
+#nav_inner {
+	 /*padding:1em 1.2em; creates space between the box and the content 
+	float:left;
+	width:100%;*/
+	}
+	#main{}
+#content_inner { 
+	padding:.5em 0em 1em 1.5em; /* creates space between the box and the content */
+	}
+#footer_inner {
+	padding:.5em 1em; /* creates space between the box and the content */
+	text-align:center;
+	}
+#content_title{
+	float:left;
+	width:100%;
+	}
+#content_title_right,#content_title_left{
+	float:left;
+	height:30px;
+	width:25px;
+	}
+h2{
+	height:30px;
+	}
+#content_Program{
+	float:left;
+	width:100%;	
+	padding:0px 0 10px 0;
+padding:0px 0 10px 0 \9; /* creates space between the box and the content */
+	text-align:left;
+	}
+#addFunction{
+    padding-top:5px;
+}

@@ -1,0 +1,495 @@
+﻿@charset "utf-8";
+
+ #content h2 {
+	padding: 0 0 0 10px; font-size:16pt;height:34px; line-height:34px;  background:url(../images/h2_bg.jpg) repeat-x;  color:#c3d6e4 !important;
+	float:left;
+	margin:0 0 15px 0;
+	 width:100%;
+	}
+.top_box{padding:6px 2px 6px 10px; border:1px solid #E5E3E6;background:#F9F8E4; border-radius:10px;margin:0 0 15px 0}
+.bottom_btn{ text-align:center;}
+.bottom_btn input,.Addbutton,.Addbutton_bottom,.top_control a{ border:1px solid #BEBAB5;height:24px;line-height:24px;-moz-border-radius: 3x; margin:0 5px 0 0; padding:0 5px ;}
+.bottom_btn input:hover,.Addbutton:hover,.Addbutton_bottom:hover,.top_control a:hover{  cursor:pointer; }
+.top_control{ margin:-43px 0 15px 0; text-align:right}
+.top_control a{ color:#fff;font-size:13px;  width:100px; height:24px;line-height:24px; padding:3px 5px 2px 5px;}
+.top_control a:hover{ color:#fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.from_table{ margin:0 0 15px 0;}
+.from_table th{ border:1px solid #D9D9D9; font-weight:bold; padding:10px 10px; text-align:center; width:75px}
+.from_table td{ border:1px solid #D9D9D9; text-align:left; padding:10px 10px;}
+/* basic table styling  - more-styled tables in tables.css */
+.tableStyle1  {
+width:100%;
+	border:1px solid #D9D9D9;
+	
+	margin:15px 0;
+
+	}
+.tableStyle1  th{
+	padding:5px 2px;
+	
+    text-align:center;
+	color:#2F2F2F;
+	background:#fff;
+	font-weight:bold;
+	}
+.tableStyle1 td	{
+	border:1px solid #D9D9D9;
+	padding:5px 2px;
+color:#5f5f5f;
+text-align:center;
+	}
+.tableStyle1_list_odd{background:#EEEEEE}
+.tableStyle1_list_even{background:#fff}
+.tableStyle1 tr:hover td
+        {
+           background:#E5E3E6;
+        }
+
+#content h3{margin:10px 0px 10px 0px;
+	font-size:11pt;
+font-weight:bold;
+color:#476c14;
+padding:0 0 0 18px;
+background:url(../images/h1_bg.jpg) no-repeat;
+display:block;}
+
+/* TWO COLUMN LAYOUT */
+.clear{ clear:both;}
+.clear:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+body {
+	text-align:center; /* IE6 needs this to center the layout in the browser window */
+	}
+#main_wrapper {
+	margin-left:auto;  /* centers layout in browser */
+	margin-right:auto; /* centers layout in browser */
+	text-align:left; /* resets the centering hack for IE6 on the body tag */
+	width:1003px;
+}
+#header {
+	 
+	}
+#nav {
+	width:143px; /* this width + content width must total 100% */
+	float:left; /* floats on nav and content divs make them sit side by side */	
+	}
+#content {
+	float:left; /* floats on nav and content divs make them sit side by side */
+	width:800px; /* this width + nav width must total 100% */
+	
+	}
+#footer {
+	clear:both; /* makes the footer sit below whichever column is longest */
+	background:url(../../images/footer_bg2.jpg) bottom repeat-x ;/* TEMP - REMOVE OR RESTYLE  */
+	}
+#header_inner, #content_inner, #promo_inner {
+	overflow:hidden; /* clips oversize elements that would otherwise expand divs and break the layout */
+	}
+#header_inner { 
+	
+	}
+#header_title {
+	float:left;
+	text-algin:left;
+	width:50%;
+	height:50px;	
+	}
+
+#header_title h1{
+	padding:0.7em  0.4em; /* creates space between the box  and the content */
+
+	}
+#header_wellcome {
+	float:left;
+	width:90%;
+	height:24px;
+	z-index:20;
+	}
+#header_wellcome_text{
+	float:right;
+	height:24px;	
+	color:#999;
+}
+#header_wellcome_pic {
+	float:right;
+	width:28px;
+	height:24px;
+	}	
+#header_End { 
+	position:absolute;
+	width:500px;
+	padding-right:10px;
+bottom:5px;
+right:0;
+text-align:right;
+font-size:13px;
+	}	
+#header_logout {
+	text-align:right;
+	 
+	}
+	
+#header_pic {
+	text-align:right;
+	margin-right:45px;
+	}
+#header_pic {
+	text-align:right;
+	margin-right:45px;
+	}
+	
+#nav_inner {
+	 /*padding:1em 1.2em; creates space between the box and the content 
+	float:left;
+	width:100%;*/
+	}
+	#main{}
+#content_inner { 
+
+	}
+#footer_inner {
+	padding:.5em 1em; /* creates space between the box and the content */
+	text-align:center;
+	}
+#content_title{
+	float:left;
+	width:100%;
+	}
+
+
+#content_Program{
+	float:left;
+	width:100%;	
+	padding:0px 0 10px 0;
+padding:0px 0 10px 0 \9; /* creates space between the box and the content */
+	text-align:left;
+	}
+#addFunction{
+    padding-top:5px;
+}
+/* a fix for IE6 only - see Star Hack in Stylin' with CSS to see how the comments and * html hide this hack from other browsers \*/
+* html * {
+	zoom:100%; 
+/* triggers IE6 "haslayout" - google 'IE6 haslayout' for details*/
+	}
+ html{color:#000;background:url(../../images/header_bg.jpg) repeat-x}
+body.olive {background:url(../../images/footer_bg2.jpg) bottom repeat-x}
+/* without the above hack, IE6 does not draw the header until the page is resized */
+/* the problem is triggered by the universal * selector below that resets the margins, but I need to do that, hence the hack */
+* {
+	margin:0;
+	padding:0;
+	}
+body {
+	font:  Arial, sans-serif; /* 1em = 16pts */
+
+}
+a,a:link{text-decoration:none;}
+.float_left {float:left; margin: 0 .3em .3em 0;}      /* apply this class to any image or element with width - text will wrap it to the right */
+.float_right {float:right;  margin: 0 0 .3em .3em;} /* apply this class to any image or element with width  - text will wrap it to the left */
+
+/* DEFAULT TAG STYLES - font sizes, margins, padding, etc. */
+/* NOTE: text colors follow below */
+body {}
+#main_wrapper {background-color:#FFF;}
+#header {
+ background:url(../../images/header.jpg); height:250px;
+ position:relative;
+}
+
+#nav {background-color:#B33;}
+#content { font-size:11pt !important; letter-spacing:1pt;}
+#promo {background-color:transparent;}
+#footer { position:relative; font-size:13px;  height:70px;}
+
+
+#footer ft3{height:60px; width:600px;  font-family:新細明體; text-align:left; }
+
+.ft3{ padding: 18px 0 0 350px;line-height:20px; font-size:13px;}
+.ft3_p{ color:#333333}
+h1, h2, h3, h4, h5, h6, ul, ol, dl {
+	font-family: 'Trebuchet MS', Verdana,  serif;
+
+	
+
+/* FONT SIZES */
+h1 {font-size:1.5em; /* 24pt */
+	}
+
+h3 {font-size:1.125em; /* 18pt */
+	line-height:1.25;
+	}
+h4 {font-size:1.125em; /* 18pt */
+	}
+h5 {font-size:1em; /* 16pt */
+	}
+h6 {font-size:.875em; /* 14pt */
+	}
+p  {
+	
+ 	}
+a {
+	
+	}
+a:hover {
+	text-decoration:none;
+	}
+/* basic list styling - more-styled lists in list.css */
+ul, dl, ol {
+		/* lists without specific classes */
+		}
+li, dd {
+		padding:0em 0; /* lists without specific classes */
+	
+		}
+#nav ul, #nav dl, #nav ol {
+		/*margin:.5em 1em .75em 1em;  lists without specific classes */
+		}
+#nav li {
+	list-style-type:none;
+	margin-left:0
+	}
+#promo ul, #promo dl, #promo ol {
+		margin:.5em 1em .75em 1em; /* lists without specific classes */
+		}
+#promo li {
+	list-style-type:none;
+	margin-left:0
+	}		
+dt {font-weight:bold;}
+
+code {font-size:1.25em;}
+* html code {font-size:1.1em;} /* default size is smaller in IE */
+	
+cite {
+	font-size:.85em;
+	font-style:italic;
+	}
+blockquote {
+	border-top:2px solid;
+	border-bottom:2px solid;
+	width:50%;
+	margin:1em 0 1em 20%;
+	padding:.3em 1em;
+	}
+blockquote p {
+	margin-bottom:.1em;
+	}
+blockquote p:before { /* IDWIMIE 6 and 7 */
+	content: open-quote;
+	color:#cccc8f;
+}
+blockquote p:after {  /* IDWIMIE 6 and 7 */
+	content: close-quote;
+	color:#366;
+}
+blockquote cite {
+	font-size:.85em;
+	}
+abbr, acronym {
+	border-bottom:1px dashed #000;
+	cursor:default;
+	}
+address {
+	margin:0 1em .75em 1em;
+	}
+img {
+	border:0;
+	}
+
+/* basic table styling  - more-styled tables in tables.css */
+
+.tableStyle1  caption {
+	
+	font-size:1em;
+	margin-top:.6em;
+	}
+.tableStyle1  {
+width:100% !important;
+	border:1px solid #D9D9D9;
+	border-collapse:collapse;
+	margin:15px 0;
+font-size:11pt !important;
+	}
+.tableStyle1  th{
+	padding:5px;
+	
+    text-align:center;
+	color:#2F2F2F;
+	background:#fff;
+	font-weight:bold;
+	}
+.tableStyle1 td	{
+	border:1px solid #D9D9D9;
+	padding:5px;
+color:#5f5f5f;
+text-align:center;
+	}
+.tableStyle1_list_odd{background:#EEEEEE}
+.tableStyle1_list_even{background:#fff}
+.tableStyle1 tr:hover td
+        {
+           background:#E5E3E6;
+        }
+/* THE ALSETT CLEARING METHOD */
+	.clearfix:after {
+ content: ??
+ display: block; 
+ height: 0;
+ clear: both;
+ visibility: hidden;
+}
+.clearfix {display: inline-table;}
+/* backslash hack hides from IE mac \*/ LEAVE THIS COMMENT RIGHT HERE! 
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+
+#header_logout a{
+	font-size:.8em; 
+	color:#00F;
+	}
+#header_logout a:hover{
+	font-size:.8em; 
+	color:#333;
+}
+#header_logout a{}
+#header_pic {
+	color:#666;
+	font-weight:bolder;
+
+	}
+#header_wellcome {
+	
+	}
+#header_wellcome_pic {
+	background-image:url(../../images/header_wellcome.jpg);
+	}
+#content_title_right{
+	background-image:url(../../images/content_title_right.jpg);
+		display:none
+	}
+#content_title_left{
+	background-image:url(../../images/content_title_left.jpg);
+	display:none
+	}
+	fieldset,img{border:0;}
+fieldset{
+	
+	text-align:left;
+	
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+		
+	margin:0 0  10px 0;
+	width:100%;
+	
+	padding: 0px;
+}
+
+fieldset legend{	
+	
+	margin:10px 0px 10px 0px;
+	font-size:11pt;
+font-weight:bold;
+color:#476c14;
+padding:0 0 0 18px;
+background:url(../../images/h1_bg.jpg) no-repeat;
+display:block;
+	
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+fieldset legend{		
+padding:10px 0 10px 18px;
+background:url(../../images/h1_bg.jpg) no-repeat  0 10px;
+display:block;
+	
+}
+}
+
+fieldset .thickbox
+{
+    font-size:14px;
+}
+fieldset div
+{
+    margin-bottom:2px;
+display:block !important;
+clear:both;
+}
+
+
+.label_none  label{ width:130px;}
+.label_none table label{ background:none !important;font-size:13px; color:#000; font-weight:normal; }
+
+input[type='text'],input[type='password'],.checkbox{
+	border:1px solid #7E9DB9;
+	
+	margin:8px 0 0 0;
+	color:#000;
+	
+	padding:1px 2px;
+}
+input[type='radio'],input[type='checkbox'],.label_none select{margin:10px 0px 0px 0px;}
+
+.Addbutton{ float:right}
+	
+.Addbutton:hover{ }
+.sortbutton{
+	background-color:#e9f9ac;
+	background-repeat:no-repeat;
+	
+	border-width:1px;
+	border-style:solid;
+	border-color:#809431;
+	
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:5px 5px 5px 25px;
+    text-align:left;
+}
+.checkbox label /*去除本來 label css的影響 */ 
+{
+ float:none;
+ display:inline;
+
+}
+
+.formitem
+{
+    text-align: left;
+    padding:3px 0;
+}
+.action
+{
+
+    cursor:pointer;
+}
+
+	 
+
+/* end backslash hack */ 

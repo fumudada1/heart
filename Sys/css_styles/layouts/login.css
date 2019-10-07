@@ -1,0 +1,171 @@
+﻿@charset "utf-8";
+ /* CSS Document */
+ html{color:#000;background:url(../../images/header_bg.jpg) repeat-x}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+body {background:url(../../images/footer_bg2.jpg) bottom repeat-x}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym {border:0;font-variant:normal;}
+/* to preserve line-height and selector appearance */
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+/*to enable resizing for IE*/
+@charset "utf-8";
+html{color:#000;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+img{border:0;}
+.clear{ clear:both; font-size:0; line-height:0;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{*font-size:100%;}
+a{ text-decoration:none;}
+li{list-style:none;}
+html body div.clear,
+html body span.clear
+{
+     background: none;
+     border: 0;
+     clear: both;
+     display: block;
+     float: none;
+     font-size: 0;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     visibility: hidden;
+     width: 0;
+     height: 0;
+}
+.wrap{ width:1003px;margin:0 auto;}
+.header{ background:url(../../images/header.jpg); height:250px;}
+.mgt_login{ background:url(../../images/mgt_login_bg.jpg) no-repeat; width:461px; height:235px; position:relative; margin: 50px 0 100px 270px;}
+
+.login_btn{
+width:98px; height:78px;  background:url(../../images/mgt_login_btn.jpg); border:none; cursor:pointer; border:0 !important;}
+
+.mgt_writing1{ position:absolute; top:85px; left:125px;}
+.mgt_writing2{ position:absolute; top:130px; left:125px;}
+.mgt_writing3{position:absolute;top:82px; left:330px;}
+
+.writing{ border:2px solid #C9C4A7;  height:25px; line-height:30px;width:173px;}
+.clear{ clear:both;}
+.footer{ position:relative; font-size:13px;  height:68px; }
+
+
+.footer ft3{height:60px; width:600px;  font-family:新細明體; text-align:left; }
+
+.ft3{ padding: 18px 0 0 350px;line-height:20px}
+.ft3_p{ color:#333333}
+body {
+/*  	background-image:url(../../images/bg.gif); */
+height:100%;
+
+}
+#box{
+	margin: 0px auto;
+	padding: 0px;
+	width:900px; 
+}
+.title1{
+	width:800px;
+	padding-top:80px;
+	font-size:30px;
+	font-weight:bolder;
+	font-family: "新細明體", "細明體", "微軟正黑體";
+	color: #2e548c;
+	margin-right:40px;
+	text-align:right;
+	letter-spacing:3pt;
+}
+.login{
+    width:900px;
+	height:248px;
+	padding-top:0px;
+	background:url(../../images/login-1.jpg) no-repeat;
+}
+
+.content{
+	padding:0px;
+	width:900px;
+	height:452px;
+	background:url(../../images/login-2.jpg) no-repeat;
+}
+.centerbox{
+width:800px;
+margin-left:100px;
+margin-right:100x;
+}
+.table1{
+	margin-left:150px;
+    margin-right:200px;
+	width:400px;
+	height:300px;
+}
+.img1{
+float:right;	
+}
+.img2{
+padding-left:30px;
+}
+.img3{
+padding-left:50px;
+}
+
+.text1{
+	border:1px solid #7e7e7e;
+	background:#f3f6f7;
+	width:130px;
+	height:22px;
+}
+
+.button{
+	padding-left:75px;
+}
+.login .content  .center .loginInfo{
+	float:left;
+	width:210px;
+	}
+.ErrorInfo{	
+	position:absolute;
+bottom:40px;
+left:150px;
+color:red;
+
+	}	
+
+.login .content  .center  #lblMessage{
+	float:left;
+	color:#F00;
+	width:100%;
+	
+	}	
+
+div.container {
+	background-color:#000000;
+	margin: 0px;
+	padding: 0px;
+	text-align:center;
+	color:#fff;
+	
+}
+div.container ol li {
+	list-style-type: none;
+	margin-left: 20px;	
+}
+div.container { display: none }
+.container label.error {
+	display: inline;
+}
+.font1{
+	font-family: "新細明體", "細明體", "微軟正黑體";
+	font-size: 13px;
+	color:#F00;
+	text-align:center;
+	line-height:1.5em;
+}

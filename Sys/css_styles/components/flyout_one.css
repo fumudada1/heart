@@ -1,0 +1,63 @@
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssmenus.co.uk
+Copyright (c) 2009- Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+.left_menu li{ background:url(../images/mgt_dot1.jpg) no-repeat 10px 8px
+;  border-bottom:1px solid #BABABA;  padding: 5px 0 10px 15px ;padding: 10px 0 10px 15px \9;*padding: 5px 0 10px 15px;  }
+.content_left{ width:200px; float:left; }
+.content_left ul{ width:150px; margin:0px 0 10px 10px; }
+.content_left ul ul{ background:none; color:#000; margin:0;}
+.content_left li li{ background:#fff; color:#000; margin:0;padding:0;}
+.content_left li li a{ background:none; color:#000; text-decoration:none;color:#868686;} 
+.content_left li li a b{ font-weight:normal}
+.content_left li li a:hover{background:none; }
+.content_left li{
+	 border-bottom:1px solid #FFFFFF;  
+ }
+.content_left li a{ width:173px; height:29px; color:#6D6D6E; line-height:30px; font-family:arial, sans-serif; font-size:11pt; text-decoration:none; text-indent:30px;
+background:url(../../images/flyout_bg.jpg) no-repeat right center; display:block ;font-weight:bold;margin:0 0 5px 0}
+.content_left li a:hover{color:#005db5;background:url(../../images/flyout_bg_hover.jpg) no-repeat right center; }
+.content_left li li a{padding: 0px 5px 0px 15px ;margin:0;}
+.content_left li  a.current { color:#000  !important; background:url(../../images/flyout_bg_hover.jpg) no-repeat right center;}
+.content_left li  a.current b{font-weight:bold;color:#005db5; }
+.content_left li li a.current { color:#f00 !important;  background:url(../../images/dot_li.jpg) no-repeat 35px 13px; }
+.content_left li li a.current b{ color:#000;font-weight:normal}
+.content_left li li a:hover{ color:#000; background:url(../../images/dot_li.jpg) no-repeat 35px 13px;}
+.content_left li b{ font-weight:bold }
+/* ================================================================ 
+#flyout {float:left; padding-top:3px; margin:0; list-style:none; position:relative; width:140px;border-right:0px; background:#537cb9;}
+#flyout ul {padding:0; margin:0; list-style:none; width:99%; height:auto; background: url(trans.gif); position:absolute; left:-9999px; top:0;}
+#flyout table {border-collapse:collapse; width:0; height:0; margin:-1px -10px;}
+
+#flyout li {float:left; }
+#flyout li a {display:block; float:left; 
+}
+#flyout li a.fly {background:#4c4c4c url(../../images/right-arrow.gif) no-repeat right center;}
+
+#flyout li:hover {position:relative;}
+#flyout li a:hover {position:relative; background-color:#888; color:#fff;}
+#flyout li:hover > a {background-color:#7aa7ea; color:#fff;}
+
+#flyout ul li a {background:#726b6b;font-size:1.2em;width:180px;}
+#flyout ul li a.fly {background:#f00 url(../../images/right-arrow.gif) no-repeat right center;}
+#flyout ul ul li a {background:#726b6b;}
+#flyout ul ul li a.fly {background:#726b6b url(../../images/right-arrow.gif) no-repeat right center;}
+#flyout ul ul ul li a {background:#726b6b;}
+
+
+
+#flyout :hover ul,
+#flyout :hover ul :hover ul,
+#flyout :hover ul :hover ul :hover ul {left:120px;}
+
+#flyout :hover ul ul,
+#flyout :hover ul :hover ul ul {left:-9999px;}
+
+#flyout ul li:hover > a {background-color:#a4c9ff; color:#fff;}
+#flyout ul ul li:hover > a {background-color:#e60; color:#fff;}
+=================================================================== */

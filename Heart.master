@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Heart.master.cs" Inherits="Heart" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>雲施團</title>
+     <link href="css/default.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/pagecode.js"></script>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+	<link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+    <form id="form1" runat="server">
+<div class="wrap page_wrap_out">
+<div class="page_wrap">
+
+<div class="header">
+<div class="logo">
+<a href="index.aspx" title="雲施團"></a>
+</div>
+<div class="index_menu">
+<ul>
+<li class="index_menu_1"><a href="about.aspx" title="緣起"></a></li>
+<li class="index_menu_2"><a  href="News_List.aspx" title="活動消息"></a></li>
+<li class="index_menu_3"><a href="MemberNews_List.aspx" title="團員分享"></a></li>
+<li class="index_menu_4"><a  href="record.aspx"  title="雲施記錄"></a></li>
+<li class="index_menu_5"><a  href="member_person.aspx"  title="團員專區"></a>
+</li>
+</ul>
+</div>
+</div>
+<div class="index_content page_content"><div class="nav">
+                <a href="index.aspx">回首頁</a>
+            </div>
+<div class="common">
+   <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+</div>
+   
+
+</div>
+
+<div class="clear"></div>
+</div></div>
+<div class="footer page_footer">聯絡我們：<a href="mailto:myerstone@gmail.com">myerstone@gmail.com</a></div>
+ </form>
+</body>
+</html>

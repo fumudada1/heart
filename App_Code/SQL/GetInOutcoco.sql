@@ -1,0 +1,2 @@
+﻿select isnull((SELECT sum(coco) FROM InputData where enable=1),0) as inputTotal,isnull((SELECT sum(coco) FROM OutputDate),0) as outputTotal,
+(isnull((SELECT sum(coco) FROM InputData where enable=1),0)-isnull((SELECT sum(coco) FROM OutputDate),0)) as subTotal

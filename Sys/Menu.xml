@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu>
+    <Modules Title="活動消息" url="~/Sys/News/News_List.aspx?ModuleID=N01" value="N01" />
+    <Modules Title="團員分享" url="~/Sys/News/News_List.aspx?ModuleID=N02" value="N02" />
+    <Modules Title="收入紀錄"  url="~/Sys/Input/Input_list.aspx?ModuleID=I01" value="I01" />
+    <Modules Title="支出記錄"  url="~/Sys/Output/Output_list.aspx?ModuleID=O01" value="O01" />    
+    <Modules Title="會員專區" url="~/Sys/Customer/Customer_List.aspx?ModuleID=W07" value="W07" />
+    <Modules Title="E-mail樣版" url="~/Sys/EmailTemplat/EmailTemplat_List.aspx?ModuleID=E07" value="E07" />
+    <Modules Title="權限系統" url="#" value="A" >
+        <Modules Title="帳號管理" url="~/Sys/Permission/Account_list.aspx?ModuleID=A01" value="A01" />
+    </Modules>
+</menu>

@@ -1,0 +1,89 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF8" />
+    <title>後台管理系統</title>
+    <script type="text/javascript" src="<%= Page.ResolveUrl(@"~/Sys/javascript/jquery-1.6.3.min.js") %>"></script>
+    <script type="text/javascript" src="<%= Page.ResolveUrl(@"~/Sys/javascript/jquery.validate.js") %>"></script>
+    <script type="text/javascript" src="<%= Page.ResolveUrl(@"~/Sys/javascript/jquery.metadata.js") %>"></script>
+    <script type="text/javascript" src="<%= Page.ResolveUrl(@"~/Sys/javascript/ui.datepicker.js") %>"></script>
+    <script type="text/javascript" src="<%= Page.ResolveUrl(@"~/Sys/javascript/ui.datepicker-zh-TW.js") %>"></script>
+    <link href="<%= Page.ResolveUrl(@"~/Sys/css_styles/default.css") %>" rel="stylesheet"
+        type="text/css" />
+    <link href="<%= Page.ResolveUrl(@"~/Sys/css_styles/common.css") %>" rel="stylesheet"
+        type="text/css" />
+    <link href="<%= Page.ResolveUrl(@"~/Sys/css_styles/components/flyout_one.css") %>"
+        rel="stylesheet" type="text/css" />
+    <link href="<%= Page.ResolveUrl(@"~/Sys/css_styles/components/pagination.css") %>"
+        rel="stylesheet" type="text/css" />
+    <link href="<%= Page.ResolveUrl(@"~/Sys/css_styles/components/ui.core.css") %>" rel="stylesheet"
+        type="text/css" />
+    <link href="<%= Page.ResolveUrl(@"~/Sys/css_styles/components/jquery_validate.css") %>"
+        rel="stylesheet" type="text/css" />
+    <link href="<%= Page.ResolveUrl(@"~/Sys/css_styles/components/ui.datepicker.css") %>"
+        rel="stylesheet" type="text/css" />
+    <link href="<%= Page.ResolveUrl(@"~/Sys/css_styles/components/ui.theme.css") %>"
+        rel="stylesheet" type="text/css" />
+    <link href="<%= Page.ResolveUrl(@"~/Sys/css_styles/components/single_seventeen.css") %>"
+        rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="olive">
+    <form id="form1" runat="server">
+    <div id="main_wrapper">
+        <div id="header">
+            <div id="header_inner">
+                <div id="header_title">
+                    <div id="header_End">
+                        <asp:Label ID="lblUserName" runat="server" Text="Label"></asp:Label>
+                        你好!
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Sys/Permission/ModifyPassword.aspx">修改密碼</asp:HyperLink>&nbsp;|&nbsp;<asp:LoginStatus
+                            ID="LoginStatus1" runat="server" LogoutText="登出系統" OnLoggingOut="LoginStatus1_LoggingOut" />
+                    </div>
+                </div>
+            </div>
+            <!-- end header_inner -->
+        </div>
+        <!-- end header -->
+        <div id="main">
+            <div class="content_left">
+                <asp:Literal ID="litMenu" runat="server"></asp:Literal>
+            </div>
+            <!-- end nav -->
+            <div id="content">
+                <div id="content_inner">
+                    <div id="content_title" runat="server">
+                        <div id="content_title_left">
+                        </div>
+                        <h2>
+                            <asp:HiddenField ID="FunctionNumber" runat="server" />
+                            <asp:Literal ID="litFunctionName" runat="server"></asp:Literal></h2>
+                        <div id="content_title_right">
+                        </div>
+                    </div>
+                    <div id="content_Program">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+                <!-- end content_inner -->
+            </div>
+            <!-- end content_inner -->
+            <div class="clear">
+            </div>
+        </div>
+        <div id="footer_bg">
+        </div>
+        <div id="footer">
+            <div class="ft3">
+            </div>
+            <!-- end footer_inner -->
+        </div>
+        <!--end main wrapper-->
+    </div>
+    </form>
+</body>
+</html>

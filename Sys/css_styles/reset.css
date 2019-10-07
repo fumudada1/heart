@@ -1,0 +1,44 @@
+@charset "utf-8";
+ /* CSS Document */
+ html{color:#000;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+body {}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym {border:0;font-variant:normal;}
+/* to preserve line-height and selector appearance */
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+/*to enable resizing for IE*/
+@charset "utf-8";
+html{color:#000;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+img{border:0;}
+.clear{ clear:both; font-size:0; line-height:0;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{*font-size:100%;}
+a{ text-decoration:none;}
+li{list-style:none;}
+html body div.clear,
+html body span.clear
+{
+     background: none;
+     border: 0;
+     clear: both;
+     display: block;
+     float: none;
+     font-size: 0;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     visibility: hidden;
+     width: 0;
+     height: 0;
+}

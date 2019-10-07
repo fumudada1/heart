@@ -1,0 +1,51 @@
+/*  css layout style
+============================*/
+.wrap{ margin:0 0 0 250px;}
+.header{ display:none}
+.nav{ display:none;}
+.page_content{ bolder:none;}
+#ctl00_ContentPlaceHolder1_h1,#ctl00_ContentPlaceHolder1_lblMessage{ display:none;}
+.jquery_click{ display:none;}
+h1{ display:none;}
+.common{font-size:18px}
+/*  css reset
+============================*/
+html{}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,label,p{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+body{ font-family:Arial, Helvetica, sans-serif;}
+li{list-style:none;}
+caption,th{}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym {border:0;font-variant:normal;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{*font-size:100%;}
+a{ text-decoration:none; border:0px;  }
+html body div.clear,
+html body span.clear
+{
+     background: none;
+     border: 0;
+     clear: both;
+     display: block;
+     float: none;
+     font-size: 0;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     visibility: hidden;
+     width: 0;
+     height: 0;
+}
+
+.handleimg,.logo a,.login_bg{
+_behavior: url("css/iepngfix.htc") ;}
+.red{ color:#F00;}
+.img_left{ float:left; margin:0px 20px 0px 0; border:1px solid #777; padding:2px;}
+.img_right{ float:right; margin:0px 0 15px 20px;border:1px solid #777; padding:2px;}
+.bigred,.carlist .bigred2{ color:#F00; font-weight:bold;}

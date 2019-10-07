@@ -1,0 +1,75 @@
+.table{
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: dashed;
+	border-bottom-style: dashed;
+	border-top-color: #999;
+	border-bottom-color: #999;
+}
+.send{
+	position: relative;
+	height: 65px;
+	margin-top: 10px;
+}
+.send_title{
+	height:36px;
+	width:153px;
+	background-image: url(../images/way.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+.take_btn{
+	height:33px;
+	width:111px;
+	float: left;
+	margin-top: 3px;
+}
+.take_btn a {
+	height:33px;
+	width:111px;
+	float: left;
+	background-image: url(../images/take.png);
+	background-repeat: no-repeat;
+	margin-top: 3px;
+}
+.take_btn a:hover,.take_btn a.take_hover {
+	height:33px;
+	width:111px;
+	float: left;
+	background-image: url(../images/take.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+.send_btn{
+	height:33px;
+	width:111px;
+	float: left;
+	margin-top: 3px;
+	margin-left: 10px;
+}
+.send_btn a {
+	height:33px;
+	width:111px;
+	float: left;
+	background-image: url(../images/send.png);
+	background-repeat: no-repeat;
+	margin-top: 3px;
+}
+.send_btn a:hover,.send_btn a.send_hover {
+	height:33px;
+	width:111px;
+	float: left;
+	background-image: url(../images/send.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+.total{
+	position: absolute;
+	width:300px;
+	top: 0px;
+	right: 100px;
+}
+.total td{ padding-top:0px;}
+.carlist3{ margin:0 0 30px 0; *margin:0;letter-spacing:1pt; }
+.carlist3 th{ text-align:right; }
+.carlist3 td{padding:5px 0 5px 5px; text-align:left; color:#434343;}

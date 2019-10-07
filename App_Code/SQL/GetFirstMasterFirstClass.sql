@@ -1,0 +1,1 @@
+﻿select top 1 id as masterID,(select top 1 id from dbo.ModuleClass  where masterId=Masters.id order by listNum) as ClassID from Masters where (select count(*) from dbo.ModuleClass where masterId=Masters.id) >0 order by listNum

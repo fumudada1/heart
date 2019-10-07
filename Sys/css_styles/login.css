@@ -1,0 +1,11 @@
+﻿@charset "utf-8";
+ 
+.mgt_login{ background:url(../images/mgt_login_bg.jpg) no-repeat; width:461px; height:235px; position:relative; margin: 50px 0 100px 270px;}
+.login_btn{
+width:98px; height:78px;  background:url(../images/mgt_login_btn.jpg); border:none; cursor:pointer; border:0 !important;}
+.mgt_writing1{ position:absolute; top:85px; left:125px;}
+.mgt_writing2{ position:absolute; top:130px; left:125px;}
+.mgt_writing3{position:absolute;top:82px; left:330px;}
+.writing{ border:2px solid #C9C4A7;  height:25px; line-height:30px;width:173px;}
+div.container { display: none }
+.ErrorInfo{bottom:40px;left:160px;color:red;position:absolute;}

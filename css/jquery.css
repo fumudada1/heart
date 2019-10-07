@@ -1,0 +1,331 @@
+.tab{ height:28px; position:relative; z-index:99;}
+.tab a{ color:#434343}
+.tab a.active{ font-weight:bold;}
+.tab li{ width:111px; height:28px;  display:inline; float:left; text-align:center; line-height:30px; margin:0 0 0 3px;}
+.tab li a{height:28px;background:url(../images/product_tab.png);width:111px;  display:block; line-height:28px}
+.tab li a:hover{background:url(../images/product_tab_hover.png);}
+.tab li img{ margin:7px 0 0 0;}
+.tab li a.active{background:url(../images/product_tab_hover.png);}
+.court_tab{ margin:15px 0 0 40px;}
+#court_tab_content{ width:930px;background:url(../images/tab_bg.png) ; margin:-1px 0 0 3px; position:relative; z-index:92; border-top:1px solid #AF8749 }
+#court_tab_content2{ width:100%;background:url(../images/tab_bg.png) ; margin:-1px 0 0 3px; position:relative; z-index:92; border:1px solid #AF8749 }
+#court_tab_topcontent{ background:url(../images/product_tab_topbg.jpg) no-repeat top left;}
+#court_tab_bottomcontent{ background:url(../images/product_tab_bottombg.jpg) no-repeat bottom left;;}
+.tab_content{ padding:30px 30px 50px 40px; width:90% \9; *width:auto; }
+
+.product_tab{ margin:15px 0 0 0; }
+
+
+
+
+
+
+
+
+
+
+
+div.content {
+	/* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
+	display: none;
+	float: right;
+	width: 550px; 
+}
+div.content a, div.navigation a {
+	text-decoration: none;
+	color: #777;
+}
+div.content a:focus, div.content a:hover, div.content a:active {
+	text-decoration: underline;
+}
+div.controls {
+ margin:5px 0 5px 0;
+	height:32px;
+}
+div.controls a {
+	padding: 5px;
+}
+div.ss-controls {
+	float: left;
+}
+div.nav-controls {
+	float: right;
+}
+div.slideshow-container {
+	position: relative;
+	clear: both;
+	height: 502px; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+div.loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('loader.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 550px;
+	height: 502px; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+div.slideshow {
+
+}
+div.slideshow span.image-wrapper {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+div.slideshow a.advance-link {
+	display: block;
+	width: 550px;
+	height: 502px; /* This should be set to be at least the height of the largest image in the slideshow */
+	line-height: 502px; /* This should be set to be at least the height of the largest image in the slideshow */
+	text-align: center;
+	border:1px solid #cecece;
+}
+div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.slideshow a.advance-link:visited {
+	text-decoration: none;
+}
+div.slideshow img {
+	vertical-align: middle;
+	border: 1px solid #ccc;
+}
+div.download {
+	float: right;
+}
+div.caption-container {
+	position: relative;
+	clear: left;
+	height: 75px;
+}
+span.image-caption {
+	display: block;
+	position: absolute;
+	width: 550px;
+	top: 0;
+	left: 0;
+}
+div.caption {
+	padding: 12px;
+}
+div.image-title {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+div.image-desc {
+	line-height: 1.3em;
+	padding-top: 12px;
+}
+div.navigation {
+	/* The navigation style is set using jQuery so that the javascript specific styles won't be applied unless javascript is enabled. */
+}
+ul.thumbs {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+ul.thumbs li {
+	float: left;
+	padding: 0;
+	margin: 5px 10px 5px 0;
+	list-style: none;
+}
+a.thumb {
+	padding: 2px;
+	display: block;
+	border: 1px solid #ccc;
+}
+ul.thumbs li.selected a.thumb {
+	background: #000;
+}
+a.thumb:focus {
+	outline: none;
+}
+ul.thumbs img {
+	border: none;
+	display: block;
+}
+div.pagination { padding: 3px; margin: 3px;text-align:center }
+div.pagination a {
+     padding: 2px 5px 2px 5px;
+     margin: 2px;
+     border: 1px solid #8dab68;
+     text-decoration: none; /* no underline */
+     color: #5f7f39;
+}
+div.pagination a:hover, div.pagination a:active {
+     border: 1px solid #5f7f39;
+     color: #000;
+}
+div.pagination span.current {
+     padding: 2px 5px 2px 5px;
+     margin: 2px;
+     border: 1px solid #5f7f39;
+     font-weight: bold;
+     background-color: #5f7f39;
+     color: #FFF;
+     }
+div.pagination span.disabled {
+     padding: 2px 5px 2px 5px;
+     margin: 2px;
+     border: 1px solid #EEE;
+     color: #434343;
+}
+div.pagination1 {
+	clear: both;
+}
+div.navigation1 div.top {
+	margin-bottom: 12px;
+	height: 11px;
+}
+div.navigation1 div.bottom {
+	margin-top: 12px;
+}
+div.pagination1 a, div.pagination1 span.current, div.pagination1 span.ellipsis {
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding: 4px 7px 2px 7px;
+	border: 1px solid #ccc;
+}
+div.pagination1 a:hover {
+	background-color: #eee;
+	text-decoration: none;
+}
+div.pagination1 span.current {
+	font-weight: bold;
+	background-color: #000;
+	border-color: #000;
+	color: #fff;
+}
+div.pagination1 span.ellipsis {
+	border: none;
+	padding: 5px 0 3px 2px;
+}
+div.gallery-gutter {
+	clear: both;
+	padding-bottom: 20px;
+}
+
+div#page {
+	width: 890px;
+	
+	margin: 0 auto;
+	text-align: left;
+	
+}
+div#container {
+	padding: 0px 0px 20px 20px;
+}
+div#ads {
+	clear: both;
+	padding: 12px 0 12px 66px;
+}
+.play{ display:block; background:url(../images/btn01.png); width:100px; height:32px; padding:0 !important}
+.pause{ display:block; background:url(../images/btn02.png); width:100px; height:32px; padding:0 !important}
+.prev{display:block; background:url(../images/Previous.png); width:73px; height:23px; padding:0 !important;float:left; margin:0 10px 0 0;}
+.prev:hover{ background:url(../images/Previous.png) bottom;}
+.next{display:block; background:url(../images/next.png); width:73px; height:23px; padding:0 !important; float:right}
+.next:hover{background:url(../images/next.png) no-repeat bottom;}
+.img_down{ position:absolute; width:550px; height:500px; top:-500px; right:0px; }
+.img_down:hover{ }
+
+
+
+
+
+
+
+
+
+/* -¬ÛÃ¯±M°Ï
+--------------*/
+#jquery-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	height: 500px;
+}
+#jquery-lightbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+	text-align: center;
+	line-height: 0;
+}
+.ee{ visibility:hidden}
+#jquery-lightbox a img { border: none; }
+#lightbox-container-image-box {
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+#lightbox-container-image { padding: 10px; }
+#lightbox-loading {
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+}
+#lightbox-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+}
+#lightbox-container-image-box > #lightbox-nav { left: 0; }
+#lightbox-nav a { outline: none;}
+#lightbox-nav-btnPrev, #lightbox-nav-btnNext {
+	width: 1%;
+	height: 100%;
+	zoom: 1;
+	display: block;
+}
+#lightbox-nav-btnPrev { 
+	left: 0; 
+	float: left;
+}
+#lightbox-nav-btnNext { 
+	right: 0; 
+	float: right;
+}
+#lightbox-container-image-data-box {
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	overflow: auto;
+	width: 100%;
+	padding: 0 10px 0;
+}
+#lightbox-container-image-data {
+	padding: 0 10px; 
+	color: #666; 
+}
+#lightbox-container-image-data #lightbox-image-details { 
+	width: 70%; 
+	float: left; 
+	text-align: left; 
+}	
+#lightbox-image-details-caption { font-weight: bold; }
+#lightbox-image-details-currentNumber {
+	display: block; 
+	clear: left; 
+	padding-bottom: 1.0em;	
+}			
+#lightbox-secNav-btnClose {
+	width: 66px; 
+	float: right;
+	padding-bottom: 0.7em;	}
+
